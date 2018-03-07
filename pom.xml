@@ -40,12 +40,6 @@
         <version>9</version>
     </parent>
     
-    <dependency>
-        <groupId>org.wildfly.swarm</groupId>
-        <artifactId>wildfly-swarm-jaxrs</artifactId>
-        <scope>provided</scope>
-    </dependency>
-    
     <modules>
 
         <!-- Guacamole web application -->
@@ -147,6 +141,13 @@
             </plugin>
 
         </plugins>
+    
+        <dependency>
+            <groupId>org.wildfly.swarm</groupId>
+            <artifactId>wildfly-swarm-jaxrs</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
     </build>
 
 </project>
