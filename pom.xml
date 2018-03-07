@@ -37,7 +37,6 @@
     <dependency>
         <groupId>org.wildfly.swarm</groupId>
         <artifactId>wildfly-swarm-jaxrs</artifactId>
-        <version>${version.wildfly-swarm}</version>
         <scope>provided</scope>
     </dependency>
     
@@ -131,7 +130,6 @@
             <plugin>
                 <groupId>org.wildfly.swarm</groupId>
                 <artifactId>wildfly-swarm-plugin</artifactId>
-                <version>${version.wildfly-swarm}</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
