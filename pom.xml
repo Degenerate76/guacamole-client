@@ -141,15 +141,15 @@
             </plugin>
 
         </plugins>
-        
-        <dependencies>
-            <dependency>
-                <groupId>org.wildfly.swarm</groupId>
-                <artifactId>wildfly-swarm-jaxrs</artifactId>
-                <scope>provided</scope>
-            <dependency>
-        </dependencies>
 
     </build>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.wildfly.swarm</groupId>
+            <artifactId>wildfly-swarm-jaxrs</artifactId>
+            <scope>provided</scope>
+        <dependency>
+    </dependencies>
 
 </project>
