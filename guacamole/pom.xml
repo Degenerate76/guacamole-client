@@ -462,22 +462,6 @@
             <artifactId>jsr250-api</artifactId>
             <version>1.0</version>
         </dependency>
-        
-        <!-- Jackson for JSON support -->
-        <dependency>
-            <groupId>com.sun.jersey</groupId>
-            <artifactId>jersey-json</artifactId>
-            <version>1.17.1</version>
-
-            <!-- Exclude StAX API, which is part of Java 6 -->
-            <exclusions>
-                <exclusion>
-                    <groupId>javax.xml.stream</groupId>
-                    <artifactId>stax-api</artifactId>
-                </exclusion>
-            </exclusions>
-
-        </dependency>
 
         <!-- Java EE 7 dependency -->
         <dependency>
