@@ -442,13 +442,6 @@
             <version>3.0</version>
         </dependency>
         
-        <!-- Jersey - Guice extension -->
-        <dependency>
-            <groupId>com.sun.jersey.contribs</groupId>
-            <artifactId>jersey-guice</artifactId>
-            <version>1.17.1</version>
-        </dependency> 
-        
         <!-- JSR-250 annotations -->
         <dependency>
             <groupId>javax.annotation</groupId>
